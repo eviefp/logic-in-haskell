@@ -1,6 +1,6 @@
 # haskell
 
-See my [Logic in Hakell](https://cvlad.info/clasical-logic-in-haskell/) blog 
+See my [Logic in Hakell](https://eevie.ro/posts/2018-12-14-clasical-logic-in-haskell.html) blog 
 post for an adequate README.
 
 The interesting bits are in `src/Logic.hs`. You can build using `stack build`.
