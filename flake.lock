@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "garnix-lib": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1738237019,
+        "narHash": "sha256-nVJj6z2HeOWi35W7RoG71ErD9IKuymLVa0BR95vV+Hs=",
+        "owner": "garnix-io",
+        "repo": "garnix-lib",
+        "rev": "0573417fc462b0eeed5d762c8fe08093afb35a3d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "garnix-io",
+        "repo": "garnix-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1737569578,
+        "narHash": "sha256-6qY0pk2QmUtBT9Mywdvif0i/CLVgpCjMUn6g9vB+f3M=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "47addd76727f42d351590c905d9d1905ca895b82",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "garnix-lib": "garnix-lib"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
